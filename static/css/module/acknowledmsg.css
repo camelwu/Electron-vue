@@ -1,0 +1,97 @@
+.huizhiMemberListContainer{
+    /*position: absolute;
+    left: 285px;
+    top: 115px;
+    z-index: 205;*/
+   /* background-color: #fff;
+    width: 330px;
+    max-height: 370px;*/
+
+/*
+    border: 1px solid #999999;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.30);
+    border-radius: 4px;*/
+
+
+}
+.huizhiMemberListContainer .detail-tab a{
+    width:auto;
+}
+.huizhiMemberListContainer .detail-members{
+    padding-left: 25px;
+    /*overflow: hidden;*/
+    overflow-x: hidden;
+    overflow-y: auto;
+
+}
+.huizhiMemberListContainer .detail-members ul{
+
+   /* display: flex;
+    justify-content: space-between;
+    width:280px;
+    margin: 0;*/
+}
+.huizhiMemberListContainer .detail-members ul li{
+    height: 79px;
+    margin-right: 20px;
+    cursor: default;
+}
+.huizhiMemberListContainer #unReadedMemberlist a ,.huizhiMemberListContainer #readedMemberlist a {
+    cursor: default;
+}
+
+.huizhiMemberListContainer p.no-readed{
+    font-size: 12px;
+    color: #CCCCCC;
+    text-align: center;
+    height: 220px;
+    line-height: 220px;
+}
+
+
+.huizhiMemberListContainer .detail-members li .im-name {
+    margin-bottom: 3px;
+}
+
+
+
+/*--------------------弹窗相关--------------------end*/
+
+/*-------------------消息相关-------------------start*/
+.list-right .acknowledge{
+    /*	float: right;*/
+    /*position: relative;*/
+}
+.list-right .acknowledge .list-text{
+    /*float: none;*/
+}
+
+.acknowledge-down{
+    padding-top: 5px;
+    /*margin-top: 5px;*/
+    /*position: absolute;*/
+    /*right:10px;*/
+    /*margin-right: 18px;*/
+    padding-right: 10px;
+    /*float: right;*/
+}
+.acknowledge-down span{
+    line-height: 16px;
+    font-size: 12px;
+}
+.acknowledge-down span:first-of-type{
+    color: #999999;
+}
+
+.acknowledge-down span:last-of-type{
+    color: #3E89F7;
+    cursor: pointer;
+}
+.acknowledge-down span.readed{
+    color: #999;
+    cursor: text;
+}
+
+.list-left .acknowledge-down span{
+    float: left;
+}

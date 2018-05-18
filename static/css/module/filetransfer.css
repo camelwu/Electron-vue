@@ -1,0 +1,678 @@
+/*各文本背景颜色*/
+.doc-bac-color{
+        background: rgba(85,144,255,0.10)!important;
+}
+.txt-bac-color{
+       /* background: rgba(255,200,58,0.20)!important;*/
+        background: rgba(255,199,57,0.10)!important;
+}
+.ppt-bac-color{
+        background: rgba(255,121,24,0.10)!important;
+}
+.pdf-bac-color{
+        background: rgba(237,88,111,0.10)!important;
+}
+.excel-bac-color{
+        background: rgba(120,192,49,0.10)!important;
+}
+.other-bac-color{
+        background: rgba(140,140,140,0.10)!important;
+}
+
+.audio-bac-color{
+        background: rgba(103,211,155,0.10)!important;
+}
+.video-bac-color{
+        background: rgba(112,216,235,0.10)!important;
+}
+
+.vsd-bac-color{
+        background: rgba(97,122,255,0.10)!important;
+}
+
+.rar-bac-color{
+        background: rgba(242,119,222,0.10)!important;
+}
+
+.zip-bac-color{
+        background: rgba(154,119,255,0.10)!important;
+}
+
+/*左侧，右侧小三角*/
+/*.list-right .doc-bac-color:before,.list-left .doc-bac-color:before{
+        border-top-color:rgba(85,144,255,0.20)!important;
+}*/
+.list-right .txt-bac-color:before,.list-left .txt-bac-color:before{
+        border-top-color: rgba(255,200,58,0.10)!important;
+}
+.list-right .pdf-bac-color:before,.list-left .pdf-bac-color:before{
+        border-top-color: rgba(237,88,112,0.10)!important;
+}
+.list-right .ppt-bac-color:before,.list-left .ppt-bac-color:before{
+        border-top-color: rgba(255,121,25,0.10)!important;
+}
+.list-right .excel-bac-color:before,.list-left .excel-bac-color:before{
+        border-top-color: rgba(120,192,49,0.10)!important;
+}
+.list-right .other-bac-color:before,.list-left .other-bac-color:before{
+        border-top-color: rgba(140,140,140,0.10)!important;
+}
+.list-right .audio-bac-color:before,.list-left .audio-bac-color:before{
+        border-top-color: rgba(103,211,155,0.10)!important;
+}
+.list-right .video-bac-color:before,.list-left .video-bac-color:before{
+        border-top-color: rgba(112,216,235,0.10)!important;
+}
+
+.list-right .vsd-bac-color:before,.list-left .vsd-bac-color:before{
+        border-top-color: rgba(97,122,255,0.10)!important;
+}
+.list-right .rar-bac-color:before,.list-left .rar-bac-color:before{
+        border-top-color: rgba(242,119,222,0.10)!important;
+}
+.list-right .zip-bac-color:before,.list-left .zip-bac-color:before{
+        border-top-color: rgba(154,119,255,0.10)!important;
+}
+
+
+/*.doc-bac-color.on{
+        background: rgba(85,144,255,0.30)!important;
+}
+.txt-bac-color.on{
+        background: rgba(255,200,58,0.30)!important;
+}
+.ppt-bac-color.on{
+        background: rgba(255,121,25,0.30)!important;
+}
+.pdf-bac-color.on{
+        background: rgba(237,88,112,0.30)!important;
+}
+.excel-bac-color.on{
+        background: rgba(120,192,49,0.30)!important;
+}
+.other-bac-color.on{
+        background: rgba(140,140,140,0.30)!important;
+}
+
+.audio-bac-color .on{
+        background: rgba(103,211,155,0.30)!important;
+}
+.video-bac-color .on{
+        background: rgba(112,216,235,0.30)!important;
+}*/
+
+/*左侧，右侧小三角*/
+.list-right .doc-bac-color.on:before,.list-left .doc-bac-color.on:before{
+        border-top-color:rgba(85,144,255,0.10)!important;
+}
+.list-right .txt-bac-color.on:before,.list-left .txt-bac-color.on:before{
+        border-top-color: rgba(255,200,58,0.10)!important;
+}
+.list-right .pdf-bac-color.on:before,.list-left .pdf-bac-color.on:before{
+        border-top-color: rgba(237,88,112,0.10)!important;
+}
+.list-right .ppt-bac-color.on:before,.list-left .ppt-bac-color.on:before{
+        border-top-color: rgba(255,121,25,0.10)!important;
+}
+.list-right .excel-bac-color.on:before,.list-left .excel-bac-color.on:before{
+        border-top-color: rgba(120,192,49,0.10)!important;
+}
+.list-right .other-bac-color.on:before,.list-left .other-bac-color.on:before{
+        border-top-color: rgba(140,140,140,0.10)!important;
+}
+
+.list-right .vsd-bac-color.on:before,.list-left .vsd-bac-color.on:before{
+        border-top-color: rgba(97,122,255,0.10)!important;
+}
+.list-right .rar-bac-color.on:before,.list-left .rar-bac-color.on:before{
+        border-top-color: rgba(242,119,222,0.10)!important;
+}
+.list-right .zip-bac-color.on:before,.list-left .zip-bac-color.on:before{
+        border-top-color: rgba(154,119,255,0.10)!important;
+}
+
+
+/*左边的下载状态图标*/
+.list-text{
+        position: relative;
+}
+.list-text .icon-wrapper{
+        width: 22px;
+        height: 22px;
+        position: absolute;
+        font-size: 22px;
+        color: #4590E4;
+        top:50%;
+        margin-top:-11px;
+        border-radius: 100%;
+        cursor: pointer;
+}
+.list-text .icon-wrapper:hover{
+        color: #3773B6;
+}
+.list-right .icon-wrapper{
+         left:-32px;
+}
+.list-left .icon-wrapper{
+        right:-32px;
+}
+.list-text .icon-wrapper .iconn-34{
+        color:#EF6868;
+}
+.list-right .icon-wrapper .iconn-34{
+        left:-0!important;
+}
+.list-text .icon-wrapper:hover .iconn-34{
+        color:#BF5353;
+}
+
+.padding-0{
+        padding: 0!important;
+}
+.file-wrapper{
+        background: rgba(85,144,255,0.10);
+        cursor: pointer;
+}
+.file-wrapper .content{
+        display: -webkit-flex;
+        padding:10px;
+        cursor: pointer;
+}
+.file-wrapper .content .file-class{
+        width: 56px;
+        height: 56px;
+        float: left;
+        position: relative;
+}
+.file-wrapper .content .shadow{
+        width:100%;
+        height:100%;
+        position: absolute;
+        left:0;
+        top:0;
+        border-radius: 5px;
+        overflow: hidden;
+}
+.file-wrapper .content .shadow .canvas{
+        width:100%;
+        height: 100%;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-28px,-28px);
+        border-radius: 5px;
+}
+.file-wrapper .content p{
+        flex:1;
+        font-family: 'PingFang SC','Myriad Pro','Hiragino Sans GB','Microsoft YaHei',sans-serif;
+        font-size: 14px;
+        color: #323232;
+        margin-left: 10px;
+        width:154px;
+        height:38px;
+        line-height: 20px;
+        overflow : hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        font-weight: inherit;
+}
+.file-wrapper .content .file-class img{
+         width: 100%;
+         height: 100%;
+ }
+.file-wrapper .down{
+        padding: 0 10px;
+        border-radius: 0 0 10px 10px;
+        margin:0 1px 1px 1px;
+        box-sizing: border-box;
+        height:30px;
+        line-height: 30px;
+        background: #fff;
+        display: flex;
+        justify-content: space-between;
+}
+.file-wrapper .down .data-size{
+        font-family: Arial;
+        font-size: 12px;
+        color: #323232;
+}
+.file-wrapper .down .data-from{
+        font-family: 'PingFang SC','Myriad Pro','Hiragino Sans GB','Microsoft YaHei',sans-serif;
+        font-size: 12px;
+        color: #999999;
+}
+
+/*文件列表样式*/
+.right-con{
+        position: relative;
+}
+.file-list{
+
+        position: absolute;
+        width: 390px;
+        box-sizing: border-box;
+        border-left: 1px solid #eee;
+        right: -390px;
+        top:55px;
+        bottom:0;
+        z-index:222;
+        /*transition: transform 0.3s ease-in;
+        -webkit-transition: transform 0.3s ease-in-out;
+        -webkit-transform: translate(100%);*/
+        background:#fff url("../../images/file/load.png") center center no-repeat;
+        background-size: 30% auto;
+
+        /*flex-direction:column;*/
+}
+.file-list .prompt{
+        position: absolute;
+        left:50%;
+        top:50%;
+        font-family: 'PingFang SC','Myriad Pro','Hiragino Sans GB','Microsoft YaHei',sans-serif;
+        font-size: 14px;
+        color: #999999;
+        width: 84px;
+        height: 20px;
+        line-height: 20px;
+        text-align: center;
+        margin-top:10px;
+        margin-left:-42px;
+}
+
+.file-list .prompt-record{
+        top:220px;
+}
+
+.file-list.on{
+        /*display: flex;
+        transform: translate(0);
+        -webkit-transform: translate(0);*/
+        display: block;
+}
+.file-list.off{
+        display: none;
+        /*transform: translate(100%);
+        -webkit-transform: translate(100%);*/
+}
+.file-list .title{
+        width:100%;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        background: #fff;
+}
+.file-list .file-list-wrapper{
+        overflow-y: auto;
+        background: #fff;
+        flex: 1;
+}
+.file-list .file-list-wrapper .load-wrong,
+.file-list .file-list-wrapper .fresh{
+        width:100%;
+        padding:10px 0;
+        font-size:12px;
+        text-align: center;
+}
+.file-list .file-list-wrapper .load-wrong span,
+.file-list .file-list-wrapper .fresh span{
+        color: #81BDEE;
+}
+.file-list .file-list-wrapper .file-list-ul{
+        width: 100%;
+}
+.file-list .file-list-wrapper .file-list-ul .file-item{
+        padding: 12px 18px;
+        width:100%;
+        box-sizing: border-box;
+}
+/*已撤回*/
+.file-list .file-list-wrapper .file-list-ul .file-item.recall-item{
+        background: #F9F9F9;
+}
+.file-list .file-list-wrapper .file-list-ul .file-item .img{
+        position: relative;
+        width:56px;
+        height: 56px;
+        border-radius: 5px;
+        overflow: hidden;
+}
+.file-list .file-list-wrapper .file-list-ul .file-item .img{
+        float: left;
+}
+
+.file-list .file-list-wrapper .file-list-ul .file-item .img img{
+        width:100%;
+        height: 100%;
+}
+
+.list-text .content .file-class .shadow,
+.file-list .file-list-wrapper .file-list-ul .file-item .img .shadow{
+        position: absolute;
+        left:0;
+        top:0;
+        border-radius: 5px;
+        width:100%;
+        height: 100%;
+        z-index:10;
+}
+.list-text .content .file-class .shadow .canvas,
+.file-list .file-list-wrapper .file-list-ul .file-item .img .shadow .canvas{
+        width:100%;
+        height:100%;
+        position: absolute;
+        left:0;
+        top:0;
+        border-radius: 5px;
+        overflow: hidden;
+        transform: rotate(-90deg);
+        transform-origin: 50% 50%;
+}
+.list-text .content .file-class .shadow .canvas{
+        transform: rotate(-90deg);
+        transform-origin: 50% 50%;
+}
+.list-text .content .file-class .prompt-content,
+.file-list .file-list-wrapper .file-list-ul .file-item .img .prompt-content{
+        color: #fff;
+        width:100%;
+        text-align: center;
+        position: absolute;
+        left: 0;
+        height: 18px;
+        line-height: 18px;
+        font-size:12px;
+        bottom:0;
+        z-index:12;
+        background: rgba(0,0,0,0.4);
+}
+
+.list-text .content .file-class .file-pause,
+.file-list .file-list-wrapper .file-list-ul .file-item .img .file-pause{
+        bottom:19px;
+        background: none;
+}
+
+
+.file-list .file-list-wrapper .file-list-ul .file-item .img .overdue-con{
+       bottom:0px;
+}
+.file-list .file-list-wrapper .file-list-ul .file-item .img .shadow.shadow-recall{
+        background: #E4E4E4;
+}
+.file-list .file-list-wrapper .file-list-ul .file-item .center {
+        position: relative;
+}
+.file-list .file-list-wrapper .file-list-ul .file-item .center .no-see {
+        position: absolute;
+        left: 0;
+        top:0;
+        width:100%;
+        height: 100%;
+        background: #F9F9F9;
+        color: #F9F9F9;
+}
+.file-list .file-list-wrapper .file-list-ul .file-item .center .no-see{
+        position: absolute;
+        left:0;
+        background: #F9F9F9;
+        top:0;
+        bottom:0;
+}
+.file-list .file-list-wrapper .file-list-ul .file-item .center .no-see .line{
+        background: #E4E4E4;
+        border-radius: 5px;
+        height: 10px;
+        margin: 12px 0;
+        width:150px;
+}
+.file-list .file-list-wrapper .file-list-ul .file-item .center .no-see .line:nth-of-type(2){
+        width:100px;
+}
+.file-list .file-list-wrapper .file-list-ul .file-item:hover .center .no-see{
+        background: #F3F4F5;
+}
+
+.file-list .file-list-wrapper .file-list-ul .file-item .center{
+        margin-left:10px;
+        float: left;
+        width: 205px;
+}
+.file-list .file-list-wrapper .file-list-ul .file-item .center .file-name{
+        margin-bottom:10px;
+        font-size:14px;
+        margin-top:9px;
+        width:100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        height: 19px;
+        line-height: 19px;
+}
+.file-list .file-list-wrapper .file-list-ul .file-item .center .down-wrapper{
+        font-size:12px;
+       margin-bottom:5px;
+        height: 12px;
+        line-height: 12px;
+}
+.file-list .file-list-wrapper .file-list-ul .file-item:hover{
+        background: #F3F4F5;
+        cursor: pointer;
+}
+.file-list .file-list-wrapper .file-list-ul .file-item .center .down-wrapper .data-size{
+        font-family: Arial;
+        font-size: 12px;
+        color: #323232;
+}
+.file-list .file-list-wrapper .file-list-ul .file-item .center .down-wrapper .name{
+        margin: 0 10px 0 8px;
+        color: #999999;
+        font-family: 'PingFang SC','Myriad Pro','Hiragino Sans GB','Microsoft YaHei',sans-serif;
+}
+.file-list .file-list-wrapper .file-list-ul .file-item .center .down-wrapper .time{
+        color: #999999;
+        font-family: 'PingFang SC','Myriad Pro','Hiragino Sans GB','Microsoft YaHei',sans-serif;
+}
+.file-list .file-list-wrapper .file-list-ul .file-item .status-con{
+        float: right;
+        width: 68px;
+        text-align: center;
+        height: 26px;
+        line-height: 26px;
+        margin-top:15px;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        font-family: 'PingFang SC','Myriad Pro','Hiragino Sans GB','Microsoft YaHei',sans-serif;
+        font-size: 12px;
+        color: #999999;
+        user-select: none;
+}
+/*.file-list .file-list-wrapper .file-list-ul .file-item:hover .status-con{
+        border: 1px solid #4590E4;
+        color: #4590E4;
+        background: #FFFFFF;
+}*/
+
+.status-todo{
+        width: 22px;
+        height: 22px;
+        display: inline-block;
+}
+
+.status-more{
+        width: 22px;
+        height: 22px;
+        display: inline-block;
+        margin-left: 10px;
+}
+
+.statusTopause{
+        background-image: url("../../images/file/icon文件暂停@2x.png");
+        background-size: 22px 22px;
+}
+
+.statusTopause:hover{
+        background-image: url("../../images/file/icon文件暂停hover@2x.png") ;
+}
+
+.statusTofinished{
+        background-image:url("../../images/file/icon打开@2x.png");
+        background-size: 22px 22px;
+}
+
+.statusTofinished:hover{
+        background-image:url("../../images/file/icon打开hover@2x.png") ;
+}
+
+.statusToNone{
+        display: none;
+}
+
+.statusToSend{
+        background-image: url("../../images/file/icon文件上传@2x.png");
+        background-size: 22px 22px;
+}
+
+.statusToSend:hover{
+        background-image: url("../../images/file/icon文件上传hover@2x.png");
+}
+
+.statusToUnDownLoad{
+        background-image: url("../../images/file/icon文件下载@2x.png");
+        background-size: 22px 22px;
+}
+
+.statusToUnDownLoad:hover{
+        background-image: url("../../images/file/icon文件下载hover@2x.png");
+}
+
+.statusTodoMore{
+        background-image: url("../../images/file/icon更多@2x.png");
+        background-size: 22px 22px;
+}
+
+.statusTodoMore:hover{
+        background-image: url("../../images/file/icon更多hover@2x.png");
+}
+
+.statusRedFont{
+        color: #FA4042 !important;
+}
+
+
+.file-list .file-list-wrapper .file-list-ul .file-item.status-con-hide:hover .status-con{
+        border: none;
+        color: #999999;
+        background: #F3F4F5;
+}
+
+/*.file-list .file-list-wrapper .file-list-ul .file-item .status-con.send-fail:active,
+.file-list .file-list-wrapper .file-list-ul .file-item .status-con.download-fail:active,
+.file-list .file-list-wrapper .file-list-ul .file-item .status-con:active {
+        background: #3773b6;
+        color: #fff!important;
+}*/
+.file-list .file-list-wrapper .file-list-ul .file-item .status-con.downloading:active,
+.file-list .file-list-wrapper .file-list-ul .file-item .status-con.sending:active,
+.file-list .file-list-wrapper .file-list-ul .file-item .status-con.overdue:active,
+.file-list .file-list-wrapper .file-list-ul .file-item .status-con.recall:active{
+        color: #999999!important;
+        border: 1px solid transparent;
+}
+/*:
+蓝click：#3773B6
+红click：#BF5353*/
+/*send-fail send-success send-pause sending resend send-continue preview*/
+/*download-fail download-success download-pause download-continue downloading download-again  preview  overdue过期 recall撤回 no-download */
+/*发送中 已撤回 正在下载 已过期 划入时不显示边框*/
+.file-list .file-list-wrapper .file-list-ul .file-item:hover .status-con.sending,
+.file-list .file-list-wrapper .file-list-ul .file-item:hover .status-con.downloading,
+.file-list .file-list-wrapper .file-list-ul .file-item:hover .status-con.overdue,
+.file-list .file-list-wrapper .file-list-ul .file-item:hover .status-con.recall{
+        color: #999999;
+        border: 1px solid transparent;
+        background: #F3F4F5;
+}
+
+/*发送失败 下载失败的颜色*/
+.file-list .file-list-wrapper .file-list-ul .file-item .status-con.send-fail,
+.file-list .file-list-wrapper .file-list-ul .file-item .status-con.download-fail{
+        color: #EF6868;
+}
+/*发送失败 下载失败划入时加边框*/
+.file-list .file-list-wrapper .file-list-ul .file-item:hover .status-con.send-fail,
+.file-list .file-list-wrapper .file-list-ul .file-item:hover .status-con.download-fail{
+        border: 1px solid #4590E4;
+        color: #4590E4;
+}
+/*图片提示层*/
+.btn-box{
+        position: relative;
+}
+.btn-box .prompt-num{
+        padding: 5px 10px;
+        border: 1px solid #999999;
+        border-radius: 5px;
+        text-align: center;
+        position: absolute;
+        right: 10px;
+        /*right: 1%;*/
+        top: -74%;
+        font-size: 12px;
+}
+.btn-box .prompt-num .triangle{
+       position: absolute;
+        left:50%;
+        bottom: -15px;
+        color: #000;
+        font-size: 12px;
+        width:14px;
+        height: 14px;
+}
+.btn-box .prompt-num .triangle i{
+        font-style:normal;
+        font-size: 14px;
+        position: absolute;
+        left:0;
+        bottom:10px;
+        width:14px;
+        height: 14px;
+        transform: rotate(-45deg);
+        text-align: center;
+        color: #999999;
+}
+.btn-box .prompt-num .triangle i:nth-of-type(2){
+        color: #fff;
+        bottom:12px;
+}
+
+#too-much-pic:after{
+    position: absolute;
+    left: 50%;
+    bottom: -9px;
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 8px solid #bbb;
+    transform: translate(-50%, 0);
+    z-index: 1;
+}
+
+#too-much-pic:before{
+    position: absolute;
+    left: 50%;
+    bottom: -7px;
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 8px solid #fff;
+    transform: translate(-50%, 0);
+    z-index: 2;
+}
+
+

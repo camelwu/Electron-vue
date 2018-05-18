@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>icon免打扰</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon免打扰">
+            <path d="M10.293927,5.12931616 L10.293927,7.95180825 L4.22299324,1.42528545 C4.22299324,1.42528545 4.6759345,1.22381758 4.91694253,1.15336809 C4.9136636,1.12689789 5.4479711,1.00128555 6.01633533,1.00001146 C6.63599633,0.998622375 7.29417881,1.12395533 7.29063204,1.1527037 C9.02676431,1.65847924 10.293927,3.24585406 10.293927,5.12931616 Z M10.5306547,10.9999995 L1.71256943,10.9911848 C1.17436991,10.9906468 0.855122116,10.5753103 1.06519397,10.0775228 C1.06519397,10.0775228 1.1491573,9.33348602 1.91356543,8.62596832 L1.91356543,5.12931616 C1.91356543,4.05809711 2.32537265,3.08178666 3.0002178,2.34611999 L11,10.8633705 C10.881105,10.950109 10.7213893,11.0001901 10.5306547,10.9999995 Z" id="Combined-Shape" fill="#CCCCCC"></path>
+            <path d="M5,11 C5,11.5522847 5.44771525,12 6,12 C6.55228475,12 7,11.5522847 7,11 L5,11 Z" id="Combined-Shape" fill="#CCCCCC"></path>
+            <path d="M2,2 L10.0617676,10.5356445" id="Line" stroke="#CCCCCC" stroke-width="2" stroke-linecap="round"></path>
+        </g>
+    </g>
+</svg>

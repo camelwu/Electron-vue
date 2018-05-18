@@ -1,0 +1,36 @@
+.aiteMemberList {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #FFFFFF;
+    border: 1px solid #999999;
+    box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.20);
+    border-radius: 5px;
+    width: 120px;
+    max-height: 126px;
+    overflow-y: auto;
+    padding-top: 8px;
+    box-sizing: border-box;
+    z-index: 201;
+}
+
+.aiteMemberList li {
+    height: 20px;
+    margin-bottom: 2px;
+    cursor: pointer;
+    padding: 2px 0px;
+    box-sizing: border-box;
+}
+.aiteMemberList li:hover div{
+    /*background: #3E89F7;
+    font-size: 14px;
+    color: #FFFFFF;*/
+}
+
+.aiteMemberList li div{
+    text-indent:5px;
+}
+
+.aiteMemberList li.active {
+    background: #3E89F7;
+}

@@ -1,0 +1,181 @@
+.im-left .im-name {
+    margin-top: 60px !important;
+}
+
+.global-win-control {
+    position: absolute;
+    z-index: 53;
+    left: 6px;
+    top: 15px;
+}
+
+.global-win-control #winMin, .global-win-control #winMax, .global-win-control #winClose, #topbar #winClose, .login-close #winClose, .login-close #winMin, .right-top-wrapper #winClose, .right-top-wrapper #winMin, #view-img-top-bar #min, #view-img-top-bar #max, #view-img-top-bar #close {
+    background-size: 100% 100%;
+    width: 12px!important;
+    height: 12px!important;
+    margin: 0 4px;
+}
+
+.global-win-control #winMin:before, .global-win-control #winMax:before, .global-win-control #winClose:before, #topbar #winClose:before, #view-img-top-bar #close:before, .login-close #winMin:before, .login-close #winClose:before, .right-top-wrapper #winClose:before, .right-top-wrapper #winMin:before, #view-img-top-bar #min:before {
+    content: ''!important;
+}
+
+.global-win-control #winClose, .login-close #winClose, .right-top-wrapper #winClose, #view-img-top-bar #close  {
+    background-image: url('../../images/icon/关闭默认状态@2x.png');
+    float: left;
+    margin-top: 4px;
+}
+
+.global-win-control #winMin, .login-close #winMin, .right-top-wrapper #winMin, #view-img-top-bar #min {
+    background-image: url('../../images/icon/隐藏默认状态@2x.png');
+}
+
+.global-win-control #winMax, #view-img-top-bar #max  {
+    background-image: url('../../images/icon/全屏默认状态@2x.png');
+}
+
+.global-win-control:hover #winClose, #topbar #winClose, .right-top-wrapper:hover #winClose, /*.login-close:hover #winClose, */#view-img-top-bar:hover #close {
+    background-image: url('../../images/icon/关闭@2x.png');
+}
+
+.global-win-control:hover #winMin, .right-top-wrapper:hover #winMin, /*.login-close:hover #winMin,*/ #view-img-top-bar:hover #min {
+    background-image: url('../../images/icon/隐藏@2x.png');
+}
+
+.global-win-control:hover #winMax, #view-img-top-bar:hover #max  {
+    background-image: url('../../images/icon/全屏@2x.png');
+}
+
+.global-win-control:hover #winMax.winOri, #view-img-top-bar:hover #max.ori {
+    background-image: url('../../images/icon/全屏收起@2x.png')!important;
+}
+
+.login-close-warpper:hover #winClose{
+    background-image: url('../../images/icon/关闭@2x.png');
+}
+
+.login-close-warpper:hover #winMin{
+    background-image: url('../../images/icon/隐藏@2x.png');
+}
+
+#topbar #winClose {
+    left: 8px;
+    margin-top: 0;
+    line-height: 19px;
+}
+
+#view-img-top-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 30px;
+    background-color: rgba(50, 50, 50, .5);
+}
+#view-img-top-bar #close, #view-img-top-bar #min, #view-img-top-bar #max {
+    width: 24px;
+    height: 24px;
+    /* left: 8px; */
+    /* top: 3px; */
+    display: inline-block;
+    position: relative;
+    margin-top: 0;
+    vertical-align: top;
+}
+
+
+/*设置页*/
+.windows-set .set-right .right-top {
+    height: 16px;
+    padding: 19px 20px;
+    line-height: 30px;
+    text-align: left!important;
+}
+
+.right-top-wrapper {
+    position: absolute;
+    top: 8px;
+    left: -144px;
+    line-height: 20px;
+}
+
+.windows-set .set-left h2 {
+    padding-top: 50px!important;
+}
+
+.windows-set .set-right .set-all .set-key .key-select {
+    height: 33px;
+    width: 160px;
+    overflow: hidden;
+    border: 1px solid #fff;
+}
+
+.windows-set .set-right .set-all .set-key .key-select.open {
+    border-color: #979797;
+}
+
+/*登录页*/
+.login-close {
+    text-align: left!important;
+    /*line-height: 30px;*/
+    padding-top: 6px;
+    padding-left: 6px;
+    padding-bottom: 34px;
+    padding-right: 14px; 
+    /*width: 40px;*/
+}
+
+.login-download-phone{
+    float: right;
+    padding: 9px 0px 0px 0px;
+}
+
+.login-close-warpper{
+    display: inline-block;
+}
+
+/*清除的icon*/
+.group-chat-selectList .selectList-count .rubbish img{
+    width: 100%;
+    margin-top: -3px;
+}
+
+
+.topbar.login-close {
+    width: 100%;
+}
+
+.mac-offical-channel{
+    margin-top: 1px !important;
+}
+
+/* 频道引导页 */
+.page-guide-wrapper {
+    position: relative;
+    top: 44px;
+}
+
+/* 设置下载页 */
+#codeWindow .code-head h1{
+    display: none;
+}
+
+#codeWindow .code-head{
+    padding-top: 15px;
+    padding-left: 14px; 
+}
+
+#codeWindow .code-head a.closedWin{
+    float: left;
+    background-image: url('../../images/icon/关闭默认状态@2x.png');
+    background-size: 100% 100%;
+    width: 12px!important;
+    height: 12px!important;
+}
+
+#codeWindow .code-head a.closedWin:hover{
+    background-image: url('../../images/icon/关闭@2x.png');
+}
+
+.code-head {
+    height: 81px;
+}

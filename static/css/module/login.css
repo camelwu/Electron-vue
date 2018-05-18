@@ -1,0 +1,252 @@
+body {
+	width: 300px;
+}
+
+.wrap-login {
+	width: 300px;
+	height: 400px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.login-download-phone{
+	height: 16px;
+	float: left;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.login-download-phone a{
+	float: left;
+}
+
+.login-download-phone p{
+	float: left;
+}
+
+.login-download-icon{
+	background-image:  url("../../images/public/移动版icon@2x.png");
+	background-size: 16px 16px;
+	width: 16px;
+	height: 16px;
+	margin-left: 20px !important; 
+}
+
+.login-download-phone:hover .login-download-icon{
+	background-image:  url("../../images/public/移动版－hover@2x.png");
+}
+
+.login-download-text{
+	font-size: 12px;
+	color: #999999;
+	margin-left: 5px; 
+}
+
+.login-download-phone:hover .login-download-text{
+	color: #4590E4;
+}
+
+.login-close-warpper{
+	display: inline-block;
+}
+
+
+.login-close {
+	height: 16px;
+	text-align: right;
+	padding: 20px 20px 20px 0;
+}
+
+.login-close a {
+	color: #c8c8c8;
+	margin-left: 10px;
+}
+
+.login-name {
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	margin: 25px auto;
+	background: #4590E4;
+	border-radius: 5px;
+}
+
+.login-images{
+	background-color: #fff !important;
+	width: 180px !important;
+	height: 120px !important;
+	background-image: url("../../images/public/桌面端登录.png");
+	background-size: 180px 120px;
+	margin-top:5px !important;
+	margin-bottom:5px !important;
+}
+
+.login-loading {
+    text-align: center;
+    height: 239px;
+    font-size: 12px;
+    color: #999;
+    position: relative;
+    top: -192px;
+    z-index: 17;
+    background-color: #fff;
+}
+
+.login-loading img{
+	padding-top: 56px;
+	width: 38px;
+}
+
+.login-loading p {
+	padding: 20px 0px 5px 0px;
+}
+
+.login-form {
+	width: 200px;
+	margin: 0 auto;
+	padding-top: 8px;
+}
+
+.login-form .form-box {
+	position: relative;
+	height: 38px;
+	border-bottom: 1px solid #cccccc;
+	margin-bottom: 5px;
+}
+
+.login-form .form-box .icon {
+	font-size: 24px;
+	position: absolute;
+	left: 0;
+	top: 7px;
+	color: #4A4C5B;
+}
+
+.login-form .form-box .icon11 {
+	/*font-size: 12px;*/
+
+	background-image: url("../../images/public/删除账号@2x.png");
+	background-size: 12px 12px;
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	right: 0;
+	top: 14px;
+	color: #ccc;
+	display: none;
+	cursor: pointer;
+}
+
+.login-form .form-box .icon11.active {
+	display: block;
+}
+
+.login-form .form-box .icon7 {
+	/*font-size: 26px;*/
+	background-image: url("../../images/public/登录按钮－置灰@2x.png");
+	background-size: 26px 26px ;
+	width: 26px;
+	height: 26px;
+	position: absolute;
+	right: 0;
+	top: 5px;
+	color: #eeeeee;
+}
+
+.login-form .form-box .icon7.active {
+	background-image: url("../../images/public/Shape@2x.png") !important;
+	background-size: 26px 26px !important;
+	cursor: pointer;
+}
+
+.login-form .form-box input {
+	width: 100%;
+	box-sizing: border-box;
+	height: 38px;
+	padding: 9px 30px 9px 33px;
+	background: transparent;
+	font-size: 18px;
+	line-height: 20px;
+}
+
+.username{
+	font-family: Arial;
+	color: #323232;
+}
+
+.password{
+	color: #666666;
+	font-size: 21px !important;
+	letter-spacing: 1px;
+}
+
+.login-form .form-box input::-webkit-input-placeholder { /* WebKit browsers */
+	color:    #cccccc;
+	font-size: 14px;
+	font-family: 'PingFang SC','Microsoft YaHei',sans-serif;
+}
+/*:-moz-placeholder { !* Mozilla Firefox 4 to 18 *!
+	color:    #ee2f2f;
+	opacity:  1;
+}
+::-moz-placeholder { !* Mozilla Firefox 19+ *!
+	color:    #ee2f2f;
+	opacity:  1;
+}
+:-ms-input-placeholder { !* Internet Explorer 10+ *!
+	color:    #ee2f2f;
+}*/
+
+.login-link {
+	width: 200px;
+	margin: 24px auto 0;
+	line-height: 26px;
+	color: #999;
+	font-size: 12px;
+}
+
+.login-link label {
+	display: block;
+	cursor: pointer;
+}
+
+.login-link em {
+	margin-right: 5px;
+	/*font-size: 12px;
+	vertical-align: 0;*/
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	margin-bottom: -1.5px;
+	color: #666;
+}
+
+.login-link a {
+	color: #999;
+}
+
+.pop-warning {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 12px;
+	background: #4A4C5B;
+	color: #fff;
+}
+
+.icon9{
+	background-image: url("../../images/public/Rectangle10@2x.png");
+	background-size: 12px 12px;
+}
+
+.icon10{
+	background-image: url("../../images/public/icon复选选中@2x.png") !important;
+	background-size: 12px 12px !important;
+}
